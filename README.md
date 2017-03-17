@@ -5,4 +5,4 @@ You may find the code in the Projects folder of the relevant folders (i.e. Assig
 
 Contributors:
 My partner for assignment creation was Emma Lautz (https://github.com/elautz)
-My partner for lab creation was Andrew Jiang (@ninjiangstar)
+My partner for lab creation was Andrew Jiang (https://github.com/ninjiangstar)
