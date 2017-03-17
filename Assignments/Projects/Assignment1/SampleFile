@@ -1,0 +1,131 @@
+BEGIN GENRES
+Animated
+Drama
+Action
+Thriller
+Comedy
+Romance
+END GENRES
+BEGIN ACTIONS
+Watched
+Liked
+Disliked
+Rated
+END ACTIONS
+BEGIN MOVIES
+BEGIN MOVIE
+Title:How to Train Your Dragon
+Director:Dean DeBlois
+Year:2010
+Genre:Animated
+Description:A hapless young Viking who aspires to hunt dragons becomes the unlikely friend of a young dragon himself, and learns there may be more to the creatures than he assumed.
+Rating:
+Actors:Jay Baruchel;Gerard Butler
+END MOVIE
+BEGIN MOVIE
+Title:12 Years a Slave
+Director:Steve McQueen
+Year:2013
+Genre:Drama
+Description:In the antebellum United States, Solomon Northup, a free black man from upstate New York, is abducted and sold into slavery.
+Rating:
+Actors:Chiwetel Ejiofor;Michael Fassbender
+END MOVIE
+BEGIN MOVIE
+Title:Sleepless In Seattle
+Director:Nora Ephron
+Year:1993
+Genre:Romance
+Description:A recently widowed man's son calls a radio talk-show in an attempt to find his father a partner.
+Rating:
+Actors:Tom Hanks;Meg Ryan
+END MOVIE
+BEGIN MOVIE
+Title:Shutter Island
+Director:Martin Scorsese
+Year:2010
+Genre:Thriller
+Description:In 1954, a U.S. marshal investigates the disappearance of a murderess who escaped from a hospital for the criminally insane.
+Rating:
+Actors:Leonardo DiCaprio;Emily Mortimer;Mark Ruffalo
+END MOVIE
+BEGIN MOVIE
+Title:Monty Python and the Holy Grail
+Director:Terry Gilliam
+Year:1975
+Genre:Comedy
+Description:King Arthur and his knights embark on a low-budget search for the Grail, encountering many, very silly obstacles.
+Rating:8.3
+Actors:Graham Chapman;John Cleese;Eric Idle
+END MOVIE
+BEGIN MOVIE
+Title:Dirty Rotten Scoundrels
+Director:Frank Oz
+Year:1988
+Genre:Comedy
+Description:Two con men try to settle their rivalry by betting on who can swindle a young American heiress out of $50,000 first.
+Rating:
+Actors:Steve Martin;Michael Caine;Glenne Headly
+END MOVIE
+END MOVIES
+BEGIN USERS
+BEGIN USER
+Username:elautz
+Password: elautz
+Name:Emma Lautz
+Following:jmiller;dkempe
+BEGIN FEED
+BEGIN EVENT
+Action:Liked
+Movie:Dirty Rotten Scoundrels
+Rating:
+END EVENT
+BEGIN EVENT
+Action:Watched
+Movie:Dirty Rotten Scoundrels
+Rating:
+END EVENT
+BEGIN EVENT
+Action:Disliked
+Movie:Shutter Island
+Rating: 
+END EVENT
+END FEED
+END USER
+BEGIN USER
+Username: jmiller
+Password: jmiller
+Name: Jeffrey Miller
+Following: knguyen
+BEGIN FEED
+BEGIN EVENT
+Action:Rated
+Movie:Dirty Rotten Scoundrels
+Rating:8
+END EVENT
+END FEED
+END USER
+BEGIN USER
+Username:knguyen
+Password:knguyen
+Name:Kien Nguyen
+Following:elautz;jmiller
+END USER
+BEGIN USER
+Username:mshindler
+Password:mshindler
+Name:Michael Shindler
+Following:acote;dkempe
+END USER
+BEGIN USER
+Username:acote
+Password:acote
+Name:Aaron Cote
+Following:mshindler;knguyen
+END USER
+BEGIN USER
+Username:dkempe
+Password:dkempe
+Name:David Kempe
+Following:mshindler;elautz;acote;jmiller
+END USER

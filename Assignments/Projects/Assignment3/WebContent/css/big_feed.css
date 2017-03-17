@@ -1,0 +1,24 @@
+#big_feed_container {
+	padding-top: 25px;
+	margin-left:auto; 
+	margin-right:auto;
+	width: 75%;
+	background-color: #A2BDE3;
+	border-left: 5px solid #315E9B;
+	border-right: 5px solid #315E9B;
+	background-color: #7699C9;
+	min-height: 600px;
+}
+
+table#big_feed {
+	margin-left:auto; 
+	margin-right:auto;
+}
+
+table#big_feed td {
+	padding: 30px;
+}
+
+table#big_feed img {
+	width: 150px;
+}

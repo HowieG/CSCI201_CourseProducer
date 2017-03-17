@@ -1,0 +1,46 @@
+<!-- 
+	index.html:
+	•	We run index.html on the server, everything starts here.
+	•	This is just the skeleton of elements we KNOW will be on the page (e.g. a container for the factory grid) but not anything that is data-dependent (e.g. the factory worker – we don’t know how many there will be, if any).
+	•	We include the JavaScript files in <head>, but they are NOT automatically executed, they are just referenced (think “import”)
+ -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>CSCI201 Factory Simulator</title>
+		<link rel="stylesheet" href = "css/main.css">
+		<script src="js/WebSocketEndpoint.js" type="text/javascript"></script>
+		<script src="js/Factory.js" type="text/javascript"></script>
+		<script src="js/FactoryWorker.js" type="text/javascript"></script>
+		<script src="js/FactoryResource.js" type="text/javascript"></script>
+		<script src="js/FactoryTaskBoard.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<table id="factory-container">
+			<tr id="factory-container-top">
+				<td id="factory-simulation-container">
+					<span id="factory-simulation-heading"></span>
+					<div id="factory-simulation-container2">
+						<table id="factory-simulation"></table>
+					</div>
+				</td>
+				<td id="factory-product-table-container">
+					<table id="factory-product-table"></table>
+				</td>
+			</tr>
+			<tr id="factory-container-bottom">
+				<td id="factory-messages-container">
+					<ul id="factory-messages">
+						<li>Waiting for factory configuration from server...</li>
+					</ul>
+				</td>
+				<td id="factory-slider-container">
+					<b>Speed Controller:</b>
+					<input type="range" id="factory-slider" value=50>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

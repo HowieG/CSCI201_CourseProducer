@@ -1,0 +1,34 @@
+#search_results table {
+	background-color: #A2BDE3;
+	width: 100%;
+}
+
+#search_results table thead {
+	background-color: white;
+	color: #194684;
+}
+
+#search_results tbody {
+	background-color: #A2BDE3;
+	overflow: auto;
+	height: 150px;
+}
+
+#search_results tbody td:hover {
+	background-color: white;
+}
+
+#search_results tbody td:hover a {
+	display: block;
+}
+
+#search_results td {
+	padding: 3px 15px;
+	font-size: 14pt;
+	display: table;
+	width: 100%;
+}
+
+#search_results tr, tbody {
+	display:block;
+}

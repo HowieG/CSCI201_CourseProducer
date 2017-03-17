@@ -1,0 +1,69 @@
+#navBar {
+	font-family: 'Lato', sans-serif;
+	font-size: 40px;
+	color: white;
+	text-align: center;
+	background-color: #315E9B;
+	height: 40px;
+	padding: 10px;
+}
+
+#cinemate_title {
+	position: absolute;
+	top: 5px;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+#feed_icon {
+	float: left;
+	margin-right: 10px;
+}
+
+#search_bar {
+	position:relative;
+	float: left;
+	width: 20%;
+	margin-right: 5px;
+}
+#search_bar > #search_input {
+	float: left;
+	width: 100%;
+	padding: 5px;
+	border: 2px solid white;
+	font-size: 12pt;
+}
+#search_bar > img {
+	position:absolute;
+	right: 0px;
+	top: 1px;
+	width:30px;
+	height:30px;
+}
+
+#search_icon {
+	float: left;
+	margin-top: 5px;
+}
+
+#logged_in_user_icon {
+	float: left;
+	margin-right: 10px;
+	display:block;
+	border-radius: 50%;
+	width: 40px;
+}
+
+#logout_icon {
+	float: right;
+	margin-right: 10px;
+}
+
+#exit_icon {
+	float: right;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }

@@ -1,0 +1,156 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: HelveticaNeue, Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+  box-sizing: border-box;
+}
+
+html *, html *:before, html *:after {
+  box-sizing:inherit;
+}
+
+/* BASIC LAYOUT */
+#factory-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
+}
+#factory-container td {
+  border: 1px solid #CCC;
+}
+
+#factory-container-top {
+  height: 75%;
+}
+
+#factory-container-bottom {
+  height: 25%;
+}
+
+#factory-simulation-container,
+#factory-messages-container {
+  width: 75%;
+}
+
+#factory-product-table-container,
+#factory-slider-container {
+  width: 25%;
+}
+
+/* FACTORY SIMULATION CANVAS */
+#factory-simulation-container {
+  background-color: #888;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+}
+#factory-simulation-container2 {
+  position: absolute;
+  left: 30px; right: 30px; top: 30px; bottom: 30px;
+}
+#factory-simulation-heading {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px;
+}
+#factory-simulation {
+  position: relative;
+  background-color: #FFF;
+  width: 100%;
+  height: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+#factory-simulation td {
+  background-color: #AAA;
+  border: 1px solid #FFF;
+  position: relative;
+}
+#factory-simulation img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  left: 0; top: 0; right: 0; bottom: 0;
+}
+#factory-simulation td span {
+	position: relative;
+	font-weight: bold;
+}
+#factory-simulation .factory-label {
+	position: absolute;
+    z-index: 100;
+    top: -20px;
+    background-color: rgba(0, 0, 0, 0.498039);
+    color: rgb(255, 255, 255);
+    left: -20px;
+    right: -20px;
+    padding: 2px;
+    border-radius: 3px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+#factory-simulation .factory-worker-container {
+	position: absolute;
+}
+
+/* FACTORY PRODUCT TABLE */
+#factory-product-table-container {
+  overflow-x: hidden;
+  overflow-y: auto;
+  vertical-align: top;
+}
+#factory-product-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#factory-product-table,
+#factory-product-table tr,
+#factory-product-table th,
+#factory-product-table td {
+  border:1px solid #CCC;
+}
+
+#factory-product-table th,
+#factory-product-table td {
+  padding: 2px 5px;
+}
+
+#factory-product-table th {
+  background-color: #EEE;
+}
+
+/* FACTORY MESSAGES */
+#factory-messages-container {
+	position: relative;
+}
+#factory-messages, #factory-messages li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+#factory-messages {
+  position: absolute;
+  left: 0; right: 0; top: 0; bottom: 0;
+  padding: 5px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  font-family: Monaco, monospace;
+  font-size: 11px;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+/* FACTORY SLIDER */
+#factory-slider-container {
+	text-align: center;
+}
+#factory-slider {
+	width: 80%;
+}

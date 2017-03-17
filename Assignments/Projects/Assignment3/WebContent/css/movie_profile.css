@@ -1,0 +1,114 @@
+#outer_movie_container {
+	background-color: #7699C9;
+	padding: 30px;
+}
+
+#movie_container {
+	margin: 40px;
+}
+
+#movie_container img {
+	padding-right: 30px;
+	float: left;
+	width: 300px;
+}
+
+#movie_container #movie_title {
+	font-size: 50px;
+	color: white;
+}
+#movie_container > #directors {
+	font-size: 30px;
+	color: #DDD;
+}
+
+#movie_container > #actors {
+	font-size: 30px;
+	color: #DDD;
+}
+
+#movie_container > #writers {
+	font-size: 30px;
+	color: #DDD;
+}
+
+#movie_container > #description {
+	font-size: 30px;
+	color: white;
+}
+
+#movie_container > #movie_actions {
+	padding: 15px;
+}
+
+#movie_container > #movie_actions > img{
+	width: 50px;
+	padding-right: 60px;
+}
+
+#movie_rating_container {
+	padding-left: 325px; 
+}
+
+/* #average_movie_rating CSS sourced from: https://css-tricks.com/star-ratings/ */
+#average_movie_rating {
+	float: left;
+	unicode-bidi: bidi-override;
+	position: absolute;
+}
+
+#average_movie_rating > span {
+	display: inline-block;
+	position: relative;
+	font-size: 40px;
+	width: 1em;
+	color: #E4BB24;
+}
+
+#average_movie_rating:hover {
+	visibility: hidden;
+}
+
+/* #user_movie_rating CSS sourced from: https://css-tricks.com/star-ratings/ */
+#user_movie_rating {
+	float: left;
+	unicode-bidi: bidi-override;
+	direction: rtl;
+	position: absolute;
+}
+#user_movie_rating > span {
+	display: inline-block;
+	position: relative;
+	font-size: 40px;
+	width: 1em;
+	color: #222;
+}
+
+#user_movie_rating > span:hover:before,
+#user_movie_rating > span:hover ~ span:before {
+	content: "\2605";
+	position: absolute;
+	color: #E4BB24;
+}
+
+#cast_title {
+	text-align: center;
+	font-size: 40px;
+	text-decoration: underline;
+	color: #7699C9;
+}
+
+table#cast_container {
+	margin-left:auto; 
+	margin-right:auto;
+}
+
+table#cast_container td {
+	font-size: 30px;
+	color: #EEE;
+}
+
+table#cast_container img {
+	height: 200px;
+	padding-right: 30px;
+}

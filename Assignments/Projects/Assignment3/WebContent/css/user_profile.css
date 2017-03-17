@@ -1,0 +1,104 @@
+#user_container_outer {
+	background-color: #7699C9;
+	height: 250px;
+	width: 100%;
+}
+
+#user_container_inner {
+	width: 50%;
+	height: auto;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+#user_container_inner > img {
+	display:block;
+	margin: 0 auto;
+	border-radius: 50%;
+	width: 20%;
+}
+
+#user_container_inner > h1 {
+	font-family: sans-serif;
+	font-size: 40pt;
+	text-align: center;
+	margin: 0;
+	color: #DDD;
+}
+
+#user_container_inner > h3 {
+	font-family: 'Lato', sans-serif;
+	font-size: 20pt;
+	text-align: center;
+	margin: 0;
+	color: #DDD;
+}
+
+#user_container_outer > #following_button > button {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	background-color: #315E9B;
+	color: #DDD;
+}
+
+.pin_left {
+	float: left;
+}
+
+.pin_right {
+	float: right;
+}
+
+.follow_container {
+	width: 17%;
+	text-align: center;
+}
+
+.follow_container > h1 {
+	color: #315E9B;
+	background-color: #7699C9;
+	padding: 5px;
+	margin: 5px;
+}
+
+.follow_container > h2 {
+	font-size: 20pt;
+}
+
+#small_feed {
+	float: right;
+	width: 65%;
+}
+
+#small_feed > table {
+	margin: auto;
+}
+
+#small_feed td {
+	font-size: 22pt;
+	display:block;
+	color: white;
+	height: 40pt;
+	text-align: right;
+}
+
+#small_feed tbody td {
+	padding: 3px;
+	margin-top: 15px;
+}
+
+#small_feed td img {
+	margin-bottom: -3px;
+	height: 30px;
+}
+
+#small_feed .movie_title {
+	color: #315E9B;
+}
+
+#small_feed .movie_title:hover {
+	color: cornflowerblue;
+}
+
+

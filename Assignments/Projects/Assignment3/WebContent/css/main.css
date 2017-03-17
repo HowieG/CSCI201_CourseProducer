@@ -1,0 +1,28 @@
+body {
+	margin: 0;
+	background-color: #A2BDE3;
+	position: relative;
+}
+
+.error_message {
+	color: #FF0033;
+	text-align: center;
+	font-size: 12pt;
+}
+
+.clickable:hover {
+	opacity: 0.5;
+}
+
+img.round {
+	border-radius: 50%;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: cornflowerblue;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Menu</title>
+	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href= "../css/menu.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Lato:700i" rel="stylesheet">
+</head>
+<body>
+
+	<div id = "title_container">
+		Cinemate
+	</div>
+
+	<div id = "welcome_text">
+		Logged in! What would you like to do?
+	</div>
+
+
+	<div id = "outer_container">
+		<div id = "inner_container">
+			<div id = "menu">
+				<ol>
+				<!-- hrefs reference the correct jsp or html to link to. The user search also passes a param to tell us what search we are doing -->
+					<li><a href = "../jsp/search.jsp?search=user">Search Users</a></li>
+					<li><a href = "../html/movie_menu.html">Search Movies</a></li>
+					<li><a href = "../jsp/feed.jsp">View Feed</a></li>
+					<li><a href = "../jsp/profile.jsp">View Profile</a></li>
+					<li><a href = "../jsp/login.jsp">Logout</a></li>
+					<li><a href = "../jsp/file_chooser.jsp">Exit</a></li>
+				</ol>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
